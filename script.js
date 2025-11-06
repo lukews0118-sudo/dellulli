@@ -6,7 +6,7 @@ const loginScreen = document.getElementById("login-screen");
 const fileScreen = document.getElementById("file-screen");
 
 loginBtn.addEventListener("click", () => {
-  if (passwordInput.value.toLowerCase() === "ilovedexter") {
+  if (passwordInput.value.toLowerCase() === "dexter") {
     loginScreen.style.display = "none";
     fileScreen.classList.remove("hidden");
   } else {
