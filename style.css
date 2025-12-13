@@ -103,7 +103,7 @@ body, html {
 
 /* MAIN AREA (70%) */
 .file-content {
-  width: 70%;
+  width: 80%;
   background-color: #fdf6e3;
   padding: 2rem;
   overflow-y: auto;
