@@ -167,20 +167,14 @@ body, html {
   to { opacity: 1; }
 }
 
-/* NOTES – make it fill the page */
+/* NOTES – balanced size, no forced scrolling */
 #notes {
-  font-size: 1.35rem;     /* bigger text */
-  line-height: 1.8;       /* taller paragraphs */
+  font-size: 1.05rem;   /* readable but not huge */
+  line-height: 1.6;
   max-width: 100%;
 }
 
-/* paragraphs inside notes */
+/* paragraphs spacing */
 #notes p {
-  margin-bottom: 1.2rem;
-}
-
-/* optional: reduce empty feeling at top */
-#notes h2,
-#notes h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
