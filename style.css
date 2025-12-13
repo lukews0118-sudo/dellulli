@@ -166,3 +166,21 @@ body, html {
   from { opacity: 0; }
   to { opacity: 1; }
 }
+
+/* NOTES – make it fill the page */
+#notes {
+  font-size: 1.35rem;     /* bigger text */
+  line-height: 1.8;       /* taller paragraphs */
+  max-width: 100%;
+}
+
+/* paragraphs inside notes */
+#notes p {
+  margin-bottom: 1.2rem;
+}
+
+/* optional: reduce empty feeling at top */
+#notes h2,
+#notes h3 {
+  margin-bottom: 1rem;
+}
