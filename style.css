@@ -167,14 +167,11 @@ body, html {
   to { opacity: 1; }
 }
 
-/* NOTES – balanced size, no forced scrolling */
 #notes {
-  font-size: 1.05rem;   /* readable but not huge */
-  line-height: 1.6;
-  max-width: 100%;
+  font-size: 1.05rem;
+  line-height: 1.45; /* tighter but still readable */
 }
 
-/* paragraphs spacing */
 #notes p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
 }
